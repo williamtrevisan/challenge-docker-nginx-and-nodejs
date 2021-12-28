@@ -17,9 +17,9 @@ Suba o container:
   docker-compose up -d
 ```
 
-Após isso, acessar na url: localhost:8080;
+Após isso, basta acessar na url: http://localhost:8080;
 
-A saída desse comando deverá ser a seguinte:
+A saída desse comando deverá ser a seguinte:<br>
 ![Full Cycle Rocks!](https://github.com/williamtrevisan/assets/blob/master/challenge-docker-nginx-nodejs/CodeEducationNginxNodeJS.png)
 
 # Autor
