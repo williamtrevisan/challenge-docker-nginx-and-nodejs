@@ -11,11 +11,10 @@ const connection = mysql.createConnection({
 const app = express();
 
 app.get('/', async (request, response) => {
-    connection.connect();
     connection.query('CREATE TABLE IF NOT EXISTS people(id int auto_increment primary key, name varchar(255) not null)');
     connection.query(`INSERT INTO people(name) VALUES('${(Math.random() + 1).toString(36).substring(7)}')`);
+    
     const result = await getNames();
-    connection.end();
 
     let listNames = '<ul>';
 
