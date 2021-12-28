@@ -19,7 +19,7 @@ Suba o container:
 
 Após isso, basta acessar na url: http://localhost:8080;
 
-A saída desse comando deverá ser a seguinte:<br>
+Ao acessar a url, encontrará a aplicação da seguinte forma:<br>
 ![Full Cycle Rocks!](https://github.com/williamtrevisan/assets/blob/master/challenge-docker-nginx-nodejs/CodeEducationNginxNodeJS.png)
 
 # Autor
