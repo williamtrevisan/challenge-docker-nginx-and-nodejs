@@ -7,11 +7,6 @@ Faça o clone do projeto:
   git clone
 ```
 
-Acesse a pasta do projeto e instale as depedências do mesmo:
-```bash
-  npm install
-```
-
 Suba o container:
 ```bash
   docker-compose up -d
