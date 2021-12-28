@@ -29,8 +29,6 @@ app.get('/', async (request, response) => {
 
     listNames += '</ul>';
 
-    console.log(listNames);
-
     response.send(`<h1>Full Cycle Rocks!</h1>\n${listNames}`);
 });
 
